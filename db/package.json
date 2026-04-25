@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "db:generate": "bun --bun run drizzle-kit generate",
+    "db:migrate": "bun --bun run drizzle-kit migrate"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.20.0",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.21.0"
+  }
+}
